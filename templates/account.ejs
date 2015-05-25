@@ -3,7 +3,7 @@
 	<br/>
 	<h1>SHOUTBOX</h1>
 	<h2>
-		--- <img src="ShoutBox128.png"> ---<br/>
+		--- <img src="ShoutBoxWhite.png" style="vertical-align:middle; width:40px;"> ---<br/>
 		Tweet. Faster.
 	</h2>
 	<br/>
@@ -14,7 +14,7 @@
 	<br/><br/>
 	<h2>
 		USERNAME:<br/>
-		<%= user.username %>
+		@<%= user.username %>
 	</h2>
 	<br/><br/>
 </div>
@@ -22,8 +22,8 @@
 <div style="background-color:rgb(44, 62, 80); color:white; text-align:center; margin-left:-3000px; margin-right:-3000px;">
 	<br/><br/>
 	<h2>
-		NAME:<%= user.displayName %>
-		Pooooop
+		NAME:<br/>
+		%= user.displayName %>
 	</h2>
 	<br/><br/>
 </div>
@@ -32,7 +32,7 @@
 	<br/><br/>
 	<h2>
 		PHOTO:<br/>
-		<%= user.photos[0].value %>
+		<img src="<%= user.photos[0].value %>">
 	</h2>
 	<br/><br/>
 </div>
